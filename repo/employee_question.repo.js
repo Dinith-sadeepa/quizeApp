@@ -1,4 +1,11 @@
+/**
+ * requiring connection
+ */
 const connection = require('../db/dbconnection');
+
+/**
+ * define model 
+ */
 let CompleteQuestion = connection.getCompleteQuestions;
 
 module.exports = {
