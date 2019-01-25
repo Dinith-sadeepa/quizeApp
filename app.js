@@ -16,13 +16,13 @@ let app = express();
  */
 app.use('/', employee);
 
-connection.getEmployee.sync().then(() => {
-    return connection.getEmployee.create({
-        employee_id: 10,
-        mobile_no: 6565656,
-        sim_type: 'dialog'
-    });
-});
+// connection.getEmployee.sync().then(() => {
+//     return connection.getEmployee.create({
+//         employee_id: 10,
+//         mobile_no: 6565656,
+//         sim_type: 'dialog'
+//     });
+// });
 
 /**
  * start the server
