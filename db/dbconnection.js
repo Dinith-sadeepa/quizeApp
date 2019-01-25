@@ -22,8 +22,7 @@ let sequelize = new Sequelize(config.database, config.username, config.password,
 let Employee = sequelize.define('employee', {
     employee_id: {
         type: Sequelize.INTEGER,
-        primaryKey: true,
-        autoIncrement: true
+        primaryKey: true
     },
     mobile_no: {
         type: Sequelize.STRING
