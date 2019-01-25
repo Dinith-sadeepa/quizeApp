@@ -175,7 +175,13 @@ CompleteQuestion.sync();
 
 module.exports = {
     getConnetion: sequelize,
-    getEmployee: Employee
+    getEmployee: Employee,
+    getGroup: Group,
+    getQuize: Quize,
+    getQuestion: Question,
+    getEmployeeGroup: EmployeeGroup,
+    getGroupQuize: GroupQuize,
+    getCompleteQuestions: CompleteQuestion
 }
 
 /**
